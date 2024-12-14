@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right ,green,skyblue);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 100px 90px;
+  
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    float: right;
+    border-radius: 70px 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 30px;
+}
+input{
+    height: 30px;
+    width: 80%;
+    outline: none;
+    border: none;
+  
+    font-size: larger;
+}
+.in1,.in2{
+    width: 100%;
+}
+.fa-envelope,.fa-lock{
+    margin-top: 10px;
+    font-size: larger;
+   float: right;
+}
+.in1,.in2{
+    border-bottom: 1px solid black;
+}
+.fa-brands{
+    padding: 10px;
+    font-size: larger;
+    box-shadow:0px 0px 16px gray ;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.hello{
+    font-size: xx-large;
+    color: white;
+}
+.para{
+    color: white;
+    text-align: center;
+}
+.sign{
+    background-color: white;
+    color: purple;
+}
